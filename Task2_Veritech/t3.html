@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Introduction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-top: 3%;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .header h1 {
+            font-size: 24px;
+            color: #333;
+        }
+        
+        .content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .curriculum p {
+            text-align: start;
+            margin-top: 2%;
+            font-size: 14px;
+            color: #777;
+            line-height: 1.5;
+        }
+        
+        .curriculum h2 {
+            margin-top: 3%;
+            text-align: start;
+        }
+        
+        .content .text {
+            flex: 1;
+            margin-bottom: 20px;
+        }
+        
+        .content .text h2 {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .content .text p {
+            font-size: 14px;
+            color: #777;
+            line-height: 1.5;
+        }
+        
+        .content .image-container {
+            flex: 1;
+            overflow: hidden;
+            border: 1px solid #ccc;
+            max-width: 400px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        
+        .content .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px 10px 0 0;
+        }
+        
+        .content .image-container figcaption {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+            border-radius: 0 0 10px 10px;
+        }
+        
+        .enroll-button,
+        .apply-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .enroll-button a,
+        .apply-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        
+        .options {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        
+        .option-box {
+            flex: 1;
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin-right: 10px;
+            text-align: center;
+            background-color: #c7c4c4;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .footer p {
+            font-size: 14px;
+            color: #777;
+        }
+        
+        .curriculum {
+            margin-top: 20px;
+        }
+        
+        .mentors {
+            margin-top: 5%;
+            text-align: center;
+        }
+        
+        .mentors figure {
+            display: inline-block;
+            max-width: 250px;
+            border-radius: 10px;
+            margin: 10px;
+            border: 1px solid black;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .mentors img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px;
+        }
+        
+        .mentors figcaption {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+            border-radius: 0 0 10px 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        .mentors h2 {
+            text-align: center;
+        }
+        
+        .companies {
+            margin-top: 20px;
+            text-align: center;
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+        
+        .companies img {
+            max-width: 150px;
+            margin: 10px;
+            border-radius: 50%;
+            border: 2px solid black;
+        }
+        
+        .inquiry-form {
+            margin-top: 50px;
+            text-align: center;
+        }
+        
+        .inquiry-form form {
+            max-width: 400px;
+            margin: auto;
+        }
+        
+        .inquiry-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .inquiry-form input,
+        .inquiry-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        
+        .inquiry-form button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Course Introduction</h1>
+        </div>
+        <div class="content">
+            <div class="text">
+                <h2>Introduction to Python Programming</h2>
+                <p>In this course, you will learn the basics of Python programming language, a powerful and versatile language. You will learn how to use Python to write efficient, clear, and readable code.</p>
+                <h2>Course Timetable</h2>
+                <p>Monday: 6:00 PM - 8:00 PM</p>
+                <p>Wednesday: 6:00 PM - 8:00 PM</p>
+                <p>Friday: 6:00 PM - 8:00 PM</p>
+            </div>
+            <div class="image-container">
+
+                <img src="python.jpg">
+            </div>
+        </div>
+
+        <div class="enroll-button">
+            <a href="#">Enroll Now</a>
+        </div>
+
+        <div class="options">
+            <div class="option-box">
+                <h3>Free</h3>
+                <p>Access to basic course materials</p>
+                <p>Live Classes</p>
+                <p>Cancel anytime in first 14 days, fully refundable.</p>
+                <p>Dedicated, focused, personalized placement assistance.</p>
+                <div style="margin-top: 35%;" class="apply-button">
+                    <a href="#">Apply Now</a>
+                </div>
+            </div>
+            <div class="option-box">
+                <h3>Paid</h3>
+                <p>Full access to course content and assignments</p>
+                <p>Access to basic course materials</p>
+                <p>Live Classes</p>
+                <p>Cancel anytime in first 14 days, fully refundable.</p>
+                <p>Dedicated, focused, personalized placement assistance.</p>
+                <p>Job support</p>
+                <div style="margin-top: 16%;" class="apply-button">
+                    <a href="#">Apply Now</a>
+                </div>
+            </div>
+            <div class="option-box">
+                <h3>Premium</h3>
+                <p>Priority support and additional resources</p>
+                <p>Full access to course content and assignments</p>
+                <p>Access to basic course materials</p>
+                <p>Live Classes</p>
+                <p>Cancel anytime in first 14 days, fully refundable.</p>
+                <p>Dedicated, focused, personalized placement assistance.</p>
+                <p>Job support</p>
+                <div class="apply-button">
+                    <a href="#">Apply Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Enroll now to get started with your Python journey!</p>
+        </div>
+
+        <div class="curriculum">
+            <h2>Python Course Curriculum</h2>
+            <p>Introduction to Python</p>
+            <p>Data Types and Variables</p>
+            <p>Control Flow and Loops</p>
+            <p>Functions and Modules</p>
+            <p>File Handling</p>
+            <p>HTML , CSS , JS </p>
+            <p>Django / Flask</p>
+        </div>
+
+        <div class="mentors">
+            <h2>Mentors and Team Members</h2>
+            <figure>
+                <img src="member.webp">
+                <figcaption>
+                    Mentor 1<br> Python Expert
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="member.webp ">
+                <figcaption>
+                    Mentor 2 <br> Web Developer
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="member.webp ">
+                <figcaption>
+                    Mentor 3<br> Data Scientist
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="companies ">
+            <h2>Companies for Placement</h2>
+            <img src="company.png ">
+            <img src="company.png ">
+            <img src="company.png ">
+            <img src="company.png ">
+        </div>
+
+        <div class="inquiry-form ">
+            <h2>Contact Us</h2>
+            <form action="# " method="post ">
+                <label for="name ">Name:</label>
+                <input type="text " id="name " name="name " required>
+
+                <label for="email ">Email:</label>
+                <input type="email " id="email " name="email " required>
+
+                <label for="message ">Message:</label>
+                <textarea id="message " name="message " rows="4 " required></textarea>
+
+                <button type="submit ">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
